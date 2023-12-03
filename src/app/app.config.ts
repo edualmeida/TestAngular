@@ -7,7 +7,7 @@ import { provideHttpClient, withFetch } from '@angular/common/http';
 
 export function getBaseUrl() {
   //return document.getElementsByTagName('base')[0].href;
-  return "https://localhost:5000/";
+  return "http://api.eduardolab.com/";
 }
 
 const providers = [
